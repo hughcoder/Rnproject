@@ -2,6 +2,9 @@ import React, { Component } from 'react'
 import { Text, View, StyleSheet, Image, TouchableOpacity, Dimensions, FlatList, Button } from 'react-native'
 
 export default class HomePage extends Component {
+  static navigationOptions ={
+    title:"Home"
+  }
   render() {
     const { navigation } = this.props
     return (
@@ -11,7 +14,7 @@ export default class HomePage extends Component {
           title="Go to Page1"
           onPress={
             () => {
-              navigation.navigate('Page1');
+              navigation.navigate('Page1',{name: '动态的'});
             }
           }
         />

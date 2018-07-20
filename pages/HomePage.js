@@ -26,6 +26,14 @@ export default class HomePage extends Component {
             }
           }
         />
+            <Button
+          title="Go to Page3----->"
+          onPress={
+            () => {
+              navigation.navigate('Page3');
+            }
+          }
+        />
       </View>
     );
   }

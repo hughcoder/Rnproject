@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Text, View, StyleSheet, Image, TouchableOpacity, Dimensions, FlatList } from 'react-native'
-import {AppStackNavigator} from  './navigators/AppNavigators'
+import {AppStackNavigator,AppTabNavigator} from  './navigators/AppNavigators'
 
 // export default class Navigationtext extends Component {
 //   render() {
@@ -11,4 +11,5 @@ import {AppStackNavigator} from  './navigators/AppNavigators'
 //   }
 // }
 
+// export default AppTabNavigator;
 export default AppStackNavigator;

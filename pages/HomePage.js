@@ -34,6 +34,14 @@ export default class HomePage extends Component {
             }
           }
         />
+         <Button
+          title="Go to TabNav----->"
+          onPress={
+            () => {
+              navigation.navigate('TabNav');
+            }
+          }
+        />
       </View>
     );
   }

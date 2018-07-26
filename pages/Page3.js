@@ -6,7 +6,7 @@ export default class Page3 extends Component {
     const { navigation } = this.props;
     const { state, setParams } = navigation;
     return (
-      <View style={{ flex: 1, backgroundColor: 'red' }}>
+      <View style={{ flex: 1, backgroundColor: 'white' }}>
         <Text style={{ fontSize: 18, color: 'black' }}>欢迎来到Page3</Text>
         <Button
           title="go back"

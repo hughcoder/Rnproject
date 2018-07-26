@@ -5,7 +5,7 @@ export default class Page2 extends Component {
   render() {
     const { navigation } = this.props;
     return (
-      <View style={{ flex: 1, backgroundColor: 'red' }}>
+      <View style={{ flex: 1, backgroundColor: 'white' }}>
         <Text style={{ fontSize: 18, color: 'black' }}>欢迎来到Page2</Text>
           <Button
             title="go back"
